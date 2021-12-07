@@ -14,6 +14,7 @@ print("Nome dos jogadores: \nPara terminar a escolha de nomes digite CONTINUAR")
 pedindo_nomes = True
 index = 1
 lista_nome_dos_jogadores = []
+gameover = []
 while pedindo_nomes:
     nome = input("O {} jogador chama: ".format(index))
     if nome.upper()=="CONTINUAR":
