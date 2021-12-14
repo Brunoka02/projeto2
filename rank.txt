@@ -1,0 +1,7 @@
+1- ('65', 'Silviobot')
+2- ('45', 'Vitor')
+3- ('40', 'Vitor')
+4- ('35', 'Patricia')
+5- ('25', 'Carlos')
+6- ('15', 'Fabi')
+7- ('10', 'Vitor')
