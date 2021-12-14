@@ -224,3 +224,11 @@ def imprimir_podio():
     
 def reset():
     os.execl(sys.executable, sys.executable, *sys.argv)
+
+def converteListaString(lista):
+    palavra = ''
+
+    for caracter in lista:
+        palavra = palavra + caracter.upper()
+
+    print(palavra)

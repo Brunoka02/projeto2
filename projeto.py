@@ -34,7 +34,7 @@ while(erros_totais != erros_maximos and not acertou):
     func.limpar()
     print('Patrícia: A pista é', p_dicas.get_dicas(lista_de_palavras[aux2].lower()))
     print('Silviobot: Temos um', p_dicas.get_dicas(lista_de_palavras[aux2].lower()), 'de', len(lista_de_palavras[aux2]),'letras')
-    print(lista_dos_caracteres[aux2])
+    func.converteListaString(lista_dos_caracteres[aux2])
     chute = input("Qual letra ou qual palavra, {}? ".format(lista_nome_dos_jogadores[aux2]))
     chute = chute.strip().upper()
     if chute == lista_de_palavras[aux2]:
@@ -60,7 +60,8 @@ while(erros_totais != erros_maximos and not acertou):
     if "_" not in lista_dos_caracteres[aux2]:
         acertou = True
         continue
-    print(lista_dos_caracteres[aux2])
+
+    func.converteListaString(lista_dos_caracteres[aux2])
     aux2 += 1
     if aux2 == len(lista_nome_dos_jogadores):
         aux2 = 0
