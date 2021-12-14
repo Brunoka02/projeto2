@@ -22,13 +22,20 @@ def função_pedir_nomes():
     while pedindo_nomes:
         nome = input("O jogador {} chama: ".format(index))
         if nome.upper()=="CONTINUAR":
-            pedindo_nomes = False
-            continue
+            if len(lista_nome_dos_jogadores) < 2:
+                print("Só é permitido jogar com 2(dois) ou mais jogadores!")
+                pedindo_nomes = True
+                continue
+            else:
+                pedindo_nomes = False
+                continue
         elif nome.upper()=="RANK":
             imprimir_podio()
         else:
             lista_nome_dos_jogadores.append(nome)
             index += 1
+
+        
     return lista_nome_dos_jogadores
 
 def função_escolher_dificuldade():
