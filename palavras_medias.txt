@@ -2,6 +2,7 @@ televisor
 monitor
 grill
 freezer
+ventilador
 fritadeira
 sanduicheira
 liquidificador
@@ -15,4 +16,5 @@ lavadora
 cooktop
 projetor
 aspirador
+aquecedor
 secador
