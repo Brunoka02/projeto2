@@ -166,9 +166,9 @@ def desenho_da_forca(numero_erros, personagem, aux2):
 
     if numero_erros == 5:
         if aux2%2 == 0:
-            anima.uma_vidas_restantep1(personagem)
+            anima.uma_vida_restantep1(personagem)
         else:
-            anima.uma_vidas_restantep2(personagem)
+            anima.uma_vida_restantep2(personagem)
 
     if numero_erros == 6:
         if aux2%2 == 0:
