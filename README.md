@@ -2,7 +2,7 @@
 <p align="center">Projeto final - Módulo 2</p>
 
 <p align="left">Contribuições: </p>
-<p align="center">Bruno Mendes</p>
+<p align="left">Bruno Mendes</p>
  - 
  - 
  
