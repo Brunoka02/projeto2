@@ -232,3 +232,24 @@ def converteListaString(lista):
         palavra = palavra + caracter.upper()
 
     print(palavra)
+
+def novoJogo():
+    print('''
+        [1] - SIM
+        [2] - NÃO
+    ''')
+    resposta = int(input('Gostaria de jogar novamente? '))
+    
+    if resposta == 1:
+        print('Iniciando novo Jogo!')
+        return True
+    elif resposta == 2:
+        fimDeJogo()
+    else:
+        print('Opção inválida! Informe uma opção válida!')
+        novoJogo()
+
+def fimDeJogo():
+    print('Finalizando jogo . . .')
+    print('JOGO FINALIZADO!')
+    exit()
