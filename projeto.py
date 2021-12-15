@@ -13,7 +13,7 @@ while resposta:
     lista_nome_dos_jogadores = func.função_pedir_nomes()
     palavras_e_dificuldade =  func.função_escolher_dificuldade()
     palavras = palavras_e_dificuldade[0]
-    pontuacao = (palavras_e_dificuldade[1]*25)+5
+    pontuacao = (palavras_e_dificuldade[1]*25)+15
     dicionario_erros = {}
     for nome in lista_nome_dos_jogadores :
         dicionario_erros.update({nome: 0})
