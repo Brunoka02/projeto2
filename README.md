@@ -6,13 +6,13 @@
  - 
  - 
  
-<p align="center">Vitor Antunes</p>
+<p align="left">Vitor Antunes</p>
  - 
  - 
  
-<p align="center">Raian Porto</p>
-- Criação da função converteListaString()
-- Trecho do código que verifica se o jogo possui 2 ou mais jogadores
-- Validação de caracter informado pelo usuário
-- Criação da função novoJogo()
-- Criação da função fimDeJogo()
+<p align="left">Raian Porto</p>
+<p align="left">- Criação da função converteListaString()</p>
+<p align="left">- Trecho do código que verifica se o jogo possui 2 ou mais jogadores</p>
+<p align="left">- Validação de caracter informado pelo usuário</p>
+<p align="left">- Criação da função novoJogo()</p>
+<p align="left">- Criação da função fimDeJogo()</p>
