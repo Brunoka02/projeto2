@@ -39,7 +39,7 @@ while resposta:
         print('Silviobot: Temos uma palavra da categoria', p_dicas.get_dicas(lista_de_palavras[aux2].lower()), 'de', len(lista_de_palavras[aux2]),'letras')
         func.converteListaString(lista_dos_caracteres[aux2])
         chute = input("Qual letra ou qual palavra, {}? ".format(lista_nome_dos_jogadores[aux2]))
-        while chute.isnumeric():
+        while not chute.isalpha():
             print('OPÇÃO INVÁLIDA! Informe uma letra ou uma palavra!')
             chute = input("Qual letra ou qual palavra, {}? ".format(lista_nome_dos_jogadores[aux2]))
         else:
